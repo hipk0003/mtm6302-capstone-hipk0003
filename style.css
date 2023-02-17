@@ -1,0 +1,19 @@
+html, .container{
+    height: 100%;
+}
+.container{
+    background: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* main wrapper styles */
+.main-wrapper{
+    padding: 2rem;
+}
+/* nasa logo sizing */
+.logo {
+    height: 200px;
+    width: auto;
+}
