@@ -1,6 +1,9 @@
 html, .container{
     height: 100%;
 }
+h1, h2, h3, p{
+    font-family: 'Poppins', sans-serif;
+}
 .container{
     background: url(./images/background.png);
     background-repeat: no-repeat;
@@ -9,11 +12,65 @@ html, .container{
     background-attachment: fixed;
 }
 /* main wrapper styles */
-.main-wrapper{
-    padding: 2rem;
+.main-container{
+    margin: 3rem;
 }
-/* nasa logo sizing */
-.logo {
-    height: 200px;
-    width: auto;
+.hero-1{
+    text-align: center;
+    margin: 2rem;
+}
+img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    
+}
+.hero-2{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+h2{
+    margin-top: 1rem;
+    text-align: center;
+}
+.input-container{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+input{
+    background-color: whitesmoke; 
+    border-color: black;
+    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10%;
+}
+.picture-container{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 4rem;
+}
+.btn {
+background-color: #C43D3B; 
+    border-color: black;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10%;
+}
+.btn-container{
+    padding: 0.5rem;
+    text-align: center;
+}
+.description{
+    margin-top: 1rem;
+    background-color: #F0F0F0;
 }

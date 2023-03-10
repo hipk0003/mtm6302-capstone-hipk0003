@@ -10,6 +10,12 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="container">
@@ -43,27 +49,46 @@
         </div>
       </nav>
     </header>
-    <main class="main-wrapper">
-      <div class="home-wrapper">
-        <div class="home-text">
-          <h1>Astronomy Picture of the Day</h1>
-        </div>
-        <div class="home-text-2">
-          <div class="logo-wrapper">
-            <img src="./images/nasa logo.png" alt="Nasa logo" class="logo" />
+    <main class="main-container">
+      <div class="hero-1">
+        <h1>Discover Your Nasa Picture of the Day</h1>
+      </div>
+      <div class="hero-2">
+        <div class="hero-3">
+          <div class="img">
+            <img src="./images/undraw_launching_re_tomg.svg" alt="" />
           </div>
-          <div>
-            <h2>Discover your astronomy picture of the day!</h2>
-            <p>Please enter a non future date</p>
+          <h2>Enter a non future date below</h2>
+          <div class="input-container">
+            <input
+              type="date"
+              id="start"
+              name="trip-start"
+              value="2018-07-22"
+              min="2000-01-01"
+              max="2023-12-31"
+            />
+          </div>
+          <div class="btn-container">
+            <button class="btn">Continue</button>
           </div>
         </div>
       </div>
-      <div class="input-wrapper">
-        <div class="date-wrapper">
-          <input type="date" />
+      <div class="picture-container">
+        <div class="picture">
+          <img src="./images/space-picture.jpg" alt="" />
         </div>
-        <div class="button-wrapper">
-          <button>Continue</button>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div class="btn-container">
+          <button class="btn">Save</button>
         </div>
       </div>
     </main>
