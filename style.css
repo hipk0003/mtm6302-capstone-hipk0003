@@ -5,13 +5,123 @@ h1, h2, h3, p{
     font-family: 'Poppins', sans-serif;
 }
 .container{
-    background: url(./images/background.png);
+    background: url(./images/background-img.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
+h1 {
+    font-size: 4rem;
+}
+p {
+    font-size: 1rem;
+}
 /* main wrapper styles */
+<<<<<<< HEAD
+.main-wrapper{
+    padding: 2rem;
+}
+/* nasa logo sizing */
+.logo {
+    height: 200px;
+    width: auto;
+}
+/* navbar style */
+.navbar-brand {
+    font-size: 2rem;
+}
+/* button styles */
+.btn {
+    background-color: #C43D3B;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.date{
+    background-color: #C43D3B;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  font-size: 16px;
+}
+/* flex */
+.home-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.home-text {
+    align-items: center;
+}
+.logo-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.home-text-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+/* placement of items */
+.home-text{
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+.input-wrapper {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 3rem;
+    flex-direction: column;
+}
+.date-wrapper, .button-wrapper {
+    padding: 1rem;
+    margin-right: 3rem;
+}
+.home-text-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-text-3, p{
+    margin-right: 1.5rem;
+}
+
+/* MAIN PAGE STYLE DONE */
+/* IMAGE PAGE STYLES NOW */
+
+.image-wrapper {
+    display: flex;
+    margin-top: 3rem;
+}
+.image-text {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.nasa-img {
+    width: 100%;
+    height: auto;
+    
+}
+
+/* media query */
+@media only screen and (max-width: 1200px) {
+    .image-wrapper {
+        display: flex;
+        flex-direction: column;
+=======
 .main-container{
     margin: 3rem;
 }
@@ -82,6 +192,7 @@ background-color: #C43D3B;
     }
     .picture{
         margin-top: 3rem;
+>>>>>>> 393894b34204a6cea797c7d622cafd2a47d0347f
     }
   }
   /* pushing styles */
