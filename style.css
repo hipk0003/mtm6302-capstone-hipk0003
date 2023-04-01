@@ -74,6 +74,32 @@ background-color: #C43D3B;
     margin-top: 1rem;
     background-color: #F0F0F0;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.overlay-image {
+    max-width: 75%;
+    max-height: 75%;
+}
+
+.overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
 @media only screen and (min-width: 1000px) {
     .hero-3{
         display: flex;
