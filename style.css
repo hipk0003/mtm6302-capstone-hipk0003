@@ -110,3 +110,36 @@ background-color: #C43D3B;
         margin-top: 3rem;
     }
   }
+
+/* NASA image style */
+
+#picture-image{
+    padding: 1rem;
+}
+.description{
+    background:none;
+}
+img{
+    padding: 1rem;
+    border-radius: 10%;
+}
+.favourites-header{
+    text-align: center;
+}
+.text-col{
+    color: #C43D3B;
+}
+/* icon */
+.fa-solid{
+    font-size: 5rem;
+    padding: 1rem;
+    color: darkblue;
+}
+.fa-solid{
+    animation: rotate 2s linear infinite;
+}
+@keyframes rotate{
+    100%{
+     transform: rotate(360deg)
+    }
+ }
