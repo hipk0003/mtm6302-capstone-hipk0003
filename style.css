@@ -143,3 +143,6 @@ img{
      transform: rotate(360deg)
     }
  }
+ #favourites{
+    list-style: none;
+ }
